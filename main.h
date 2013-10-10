@@ -29,6 +29,9 @@ extern "C" {
 #include  "defines.h"
 #include  "globleVar.h"
 #include  "gsm.h"
+#include  "adc.h"
+#include  "irq.h"
+#include  "GenericTypeDefs.h"
 //
 void main (void) ;
 void InterruptVectorHigh (void);

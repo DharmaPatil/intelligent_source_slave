@@ -2,83 +2,109 @@
 MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
 Version=1.0
 [File000]
-Location=L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.o
+Location=E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.o
 Folder=Intermediary
 DeviceName=PIC18F46K20
 LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
 LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
-LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+LanguageToolLocation=C:\Program Files\Microchip\mplabc18\v3.40\bin\mcc18.exe
 PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
-SOLK=<src>|main.c|init.c|globleVar.c|gsm.c||<obj>||<lib>||<lkr>|18f46k20_g.lkr|18f45k20_g.lkr||
+SOLK=<src>|main.c|init.c|gsm.c|adc.c|irq.c|globleVar.c||<obj>||<lib>||<lkr>|18f46k20_g.lkr|18f45k20_g.lkr||
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File001]
-Location=L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.o
+Location=E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.o
 Folder=Intermediary
 DeviceName=PIC18F46K20
 LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
 LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
-LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+LanguageToolLocation=C:\Program Files\Microchip\mplabc18\v3.40\bin\mcc18.exe
 PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
-SOLK=<src>|main.c|init.c|globleVar.c|gsm.c||<obj>||<lib>||<lkr>|18f46k20_g.lkr|18f45k20_g.lkr||
+SOLK=<src>|main.c|init.c|gsm.c|adc.c|irq.c|globleVar.c||<obj>||<lib>||<lkr>|18f46k20_g.lkr|18f45k20_g.lkr||
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File002]
-Location=L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\globleVar.o
+Location=E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.o
 Folder=Intermediary
 DeviceName=PIC18F46K20
 LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
 LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
-LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+LanguageToolLocation=C:\Program Files\Microchip\mplabc18\v3.40\bin\mcc18.exe
 PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
-SOLK=<src>|main.c|init.c|globleVar.c|gsm.c||<obj>||<lib>||<lkr>|18f46k20_g.lkr|18f45k20_g.lkr||
+SOLK=<src>|main.c|init.c|gsm.c|adc.c|irq.c|globleVar.c||<obj>||<lib>||<lkr>|18f46k20_g.lkr|18f45k20_g.lkr||
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File003]
-Location=L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.o
+Location=E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\adc.o
 Folder=Intermediary
 DeviceName=PIC18F46K20
 LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
 LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
-LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+LanguageToolLocation=C:\Program Files\Microchip\mplabc18\v3.40\bin\mcc18.exe
 PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
-SOLK=<src>|main.c|init.c|globleVar.c|gsm.c||<obj>||<lib>||<lkr>|18f46k20_g.lkr|18f45k20_g.lkr||
+SOLK=<src>|main.c|init.c|gsm.c|adc.c|irq.c|globleVar.c||<obj>||<lib>||<lkr>|18f46k20_g.lkr|18f45k20_g.lkr||
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File004]
-Location=L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\S46k20.cof
-Folder=Output
+Location=E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\irq.o
+Folder=Intermediary
 DeviceName=PIC18F46K20
 LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
-LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
-LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mplink.exe
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc18\v3.40\bin\mcc18.exe
 PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
-SOLK=<src>|main.c|init.c|globleVar.c|gsm.c||<obj>||<lib>||<lkr>|18f46k20_g.lkr|18f45k20_g.lkr||
+SOLK=<src>|main.c|init.c|gsm.c|adc.c|irq.c|globleVar.c||<obj>||<lib>||<lkr>|18f46k20_g.lkr|18f45k20_g.lkr||
 SuiteArgsString=
-ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=/z__MPLAB_DEBUG=1
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File005]
-Location=L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\S46k20.hex
+Location=E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.o
+Folder=Intermediary
+DeviceName=PIC18F46K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|init.c|gsm.c|adc.c|irq.c|globleVar.c||<obj>||<lib>||<lkr>|18f46k20_g.lkr|18f45k20_g.lkr||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File006]
+Location=E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\S46k20.cof
 Folder=Output
 DeviceName=PIC18F46K20
 LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
 LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
-LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mplink.exe
+LanguageToolLocation=C:\Program Files\Microchip\mplabc18\v3.40\bin\mplink.exe
 PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
-SOLK=<src>|main.c|init.c|globleVar.c|gsm.c||<obj>||<lib>||<lkr>|18f46k20_g.lkr|18f45k20_g.lkr||
+SOLK=<src>|main.c|init.c|gsm.c|adc.c|irq.c|globleVar.c||<obj>||<lib>||<lkr>|18f46k20_g.lkr|18f45k20_g.lkr||
 SuiteArgsString=
 ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
 TraceCmdString=
-DebugOptions=/z__MPLAB_DEBUG=1
+DebugOptions=/z__MPLAB_DEBUG=1 /z__MPLAB_DEBUGGER_PK3=1 /z__ICD2RAM=1
+[File007]
+Location=E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\S46k20.hex
+Folder=Output
+DeviceName=PIC18F46K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc18\v3.40\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|init.c|gsm.c|adc.c|irq.c|globleVar.c||<obj>||<lib>||<lkr>|18f46k20_g.lkr|18f45k20_g.lkr||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1 /z__MPLAB_DEBUGGER_PK3=1 /z__ICD2RAM=1
 [TOOL_LOC_STAMPS]
-tool_loc{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mplink.exe
-tool_loc{E56A1C86-9D32-4DF6-8C34-FE0388B1B644}=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+tool_loc{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=C:\Program Files\Microchip\mplabc18\v3.40\bin\mplink.exe
+tool_loc{E56A1C86-9D32-4DF6-8C34-FE0388B1B644}=C:\Program Files\Microchip\mplabc18\v3.40\bin\mcc18.exe

@@ -1,5 +1,5 @@
 #include "main.h"
-
+/*
 void SSP_Handler(void){
 	PIR1bits.SSPIF = 0;
 	if(SSPCON1bits.SSPOV)
@@ -69,3 +69,4 @@ void SSP_Handler(void){
 	if (SSPCON < 194)                    								//边收边计算校验和
 		SSP_CHECKSUM += SspQueue[SSPCON - 1];
 }
+*/

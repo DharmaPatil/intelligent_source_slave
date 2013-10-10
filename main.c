@@ -118,5 +118,9 @@ void InterruptServiceLow(void)			                             //低优先级保护现场
 
 void main (void)
 {
-	while(1);
+	initMCU();
+	
+	while(1){
+		ad();
+	}	
 }

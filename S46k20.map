@@ -1,5 +1,5 @@
 MPLINK 4.40, Linker
-Linker Map File - Created Wed Oct 09 13:38:40 2013
+Linker Map File - Created Thu Oct 10 16:29:50 2013
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -10,49 +10,56 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
            .code___init.o       code   0x00000e    program   0x000002
        InterruptVectorLow       code   0x000018    program   0x000006
               .code_gsm.o       code   0x00001e    program   0x0061a4
-             .stringtable    romdata   0x0061c2    program   0x000495
-           .idata_gsm.o_i    romdata   0x006657    program   0x000000
-           .romdata_gsm.o    romdata   0x006657    program   0x000000
-      .idata_fxd0808u.o_i    romdata   0x006657    program   0x000000
-      .romdata_fxd0808u.o    romdata   0x006657    program   0x000000
-        .idata_t1open.o_i    romdata   0x006657    program   0x000000
-        .romdata_t1open.o    romdata   0x006657    program   0x000000
-       .idata_t1write.o_i    romdata   0x006657    program   0x000000
-       .romdata_t1write.o    romdata   0x006657    program   0x000000
-        .idata_uwrite.o_i    romdata   0x006657    program   0x000000
-        .romdata_uwrite.o    romdata   0x006657    program   0x000000
-         .idata_udefs.o_i    romdata   0x006657    program   0x000000
-         .romdata_udefs.o    romdata   0x006657    program   0x000000
-        .idata___init.o_i    romdata   0x006657    program   0x000000
-        .romdata___init.o    romdata   0x006657    program   0x000000
-         .romdata_c018i.o    romdata   0x006657    program   0x000000
-        .idata_uputrs.o_i    romdata   0x006657    program   0x000000
-        .romdata_uputrs.o    romdata   0x006657    program   0x000000
-         .idata_uputs.o_i    romdata   0x006657    program   0x000000
-         .romdata_uputs.o    romdata   0x006657    program   0x000000
-         .idata_c018i.o_i    romdata   0x006657    program   0x000000
-          .idata_main.o_i    romdata   0x006657    program   0x000000
-     .romdata_globleVar.o    romdata   0x006657    program   0x000000
-     .idata_globleVar.o_i    romdata   0x006657    program   0x000000
-          .romdata_main.o    romdata   0x006657    program   0x000000
-          .idata_init.o_i    romdata   0x006657    program   0x000000
-          .romdata_init.o    romdata   0x006657    program   0x000000
-            .code_udefs.o       code   0x006658    program   0x000000
-        .code_globleVar.o       code   0x006658    program   0x000000
-            .code_c018i.o       code   0x006658    program   0x000000
-             .code_init.o       code   0x006658    program   0x0001a8
-                   STRING       code   0x006800    program   0x0000da
-             .code_main.o       code   0x0068da    program   0x0000b8
-               _cinit_scn       code   0x006992    program   0x00009e
-           .code_uputrs.o       code   0x006a30    program   0x000064
-            .code_uputs.o       code   0x006a94    program   0x00004c
-           .code_t1open.o       code   0x006ae0    program   0x000042
-          .code_t1write.o       code   0x006b22    program   0x000038
-             D10KTCYXCODE       code   0x006b5a    program   0x00002e
-           .code_uwrite.o       code   0x006b88    program   0x00002e
-                    .code       code   0x006bb6    program   0x000020
-             _startup_scn       code   0x006bd6    program   0x00001c
-         .code_fxd0808u.o       code   0x006bf2    program   0x00001c
+                     PROG       code   0x0061c2    program   0x0004fe
+             .stringtable    romdata   0x0066c0    program   0x000495
+         .romdata_uputs.o    romdata   0x006b55    program   0x000000
+         .idata_uputs.o_i    romdata   0x006b55    program   0x000000
+           .romdata_adc.o    romdata   0x006b55    program   0x000000
+           .idata_irq.o_i    romdata   0x006b55    program   0x000000
+           .romdata_irq.o    romdata   0x006b55    program   0x000000
+     .idata_globleVar.o_i    romdata   0x006b55    program   0x000000
+     .romdata_globleVar.o    romdata   0x006b55    program   0x000000
+        .romdata_uputrs.o    romdata   0x006b55    program   0x000000
+      .idata_fxd0808u.o_i    romdata   0x006b55    program   0x000000
+      .romdata_fxd0808u.o    romdata   0x006b55    program   0x000000
+        .idata_t1open.o_i    romdata   0x006b55    program   0x000000
+        .romdata_t1open.o    romdata   0x006b55    program   0x000000
+       .idata_t1write.o_i    romdata   0x006b55    program   0x000000
+       .romdata_t1write.o    romdata   0x006b55    program   0x000000
+        .idata_uwrite.o_i    romdata   0x006b55    program   0x000000
+        .romdata_uwrite.o    romdata   0x006b55    program   0x000000
+         .idata_udefs.o_i    romdata   0x006b55    program   0x000000
+         .romdata_udefs.o    romdata   0x006b55    program   0x000000
+        .idata_uputrs.o_i    romdata   0x006b55    program   0x000000
+        .romdata___init.o    romdata   0x006b55    program   0x000000
+        .idata___init.o_i    romdata   0x006b55    program   0x000000
+         .idata_c018i.o_i    romdata   0x006b55    program   0x000000
+         .romdata_c018i.o    romdata   0x006b55    program   0x000000
+          .idata_main.o_i    romdata   0x006b55    program   0x000000
+          .romdata_main.o    romdata   0x006b55    program   0x000000
+          .idata_init.o_i    romdata   0x006b55    program   0x000000
+          .romdata_init.o    romdata   0x006b55    program   0x000000
+           .idata_adc.o_i    romdata   0x006b55    program   0x000000
+           .romdata_gsm.o    romdata   0x006b55    program   0x000000
+           .idata_gsm.o_i    romdata   0x006b55    program   0x000000
+            .code_c018i.o       code   0x006b56    program   0x000000
+              .code_adc.o       code   0x006b56    program   0x00044a
+            .code_udefs.o       code   0x006b56    program   0x000000
+              .code_irq.o       code   0x006b56    program   0x000000
+        .code_globleVar.o       code   0x006b56    program   0x000000
+             .code_init.o       code   0x006fa0    program   0x0001ba
+                   STRING       code   0x00715a    program   0x0000da
+             .code_main.o       code   0x007234    program   0x0000c0
+               _cinit_scn       code   0x0072f4    program   0x00009e
+           .code_uputrs.o       code   0x007392    program   0x000064
+            .code_uputs.o       code   0x0073f6    program   0x00004c
+           .code_t1open.o       code   0x007442    program   0x000042
+          .code_t1write.o       code   0x007484    program   0x000038
+             D10KTCYXCODE       code   0x0074bc    program   0x00002e
+           .code_uwrite.o       code   0x0074ea    program   0x00002e
+                    .code       code   0x007518    program   0x000020
+             _startup_scn       code   0x007538    program   0x00001c
+         .code_fxd0808u.o       code   0x007554    program   0x00001c
     .config_300001_main.o    romdata   0x300001    program   0x000001
     .config_300002_main.o    romdata   0x300002    program   0x000001
     .config_300003_main.o    romdata   0x300003    program   0x000001
@@ -64,42 +71,46 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
     .config_30000b_main.o    romdata   0x30000b    program   0x000001
     .config_30000c_main.o    romdata   0x30000c    program   0x000001
     .config_30000d_main.o    romdata   0x30000d    program   0x000001
-                MATH_DATA      udata   0x000000       data   0x000010
-                 .tmpdata      udata   0x000010       data   0x000006
-                DELAYDAT2      udata   0x000016       data   0x000001
-                DELAYDAT1      udata   0x000017       data   0x000001
-                     gpr3      udata   0x000100       data   0x0000ca
-           .udata_c018i.o      udata   0x0001ca       data   0x00000a
-             .udata_gsm.o      udata   0x0001d4       data   0x000003
-           .udata_udefs.o      udata   0x0001d7       data   0x000001
-          .udata_t1open.o      udata   0x0001d8       data   0x000000
-          .idata_t1open.o      idata   0x0001d8       data   0x000000
-         .udata_t1write.o      udata   0x0001d8       data   0x000000
-         .idata_t1write.o      idata   0x0001d8       data   0x000000
-          .udata_uwrite.o      udata   0x0001d8       data   0x000000
-          .idata_uwrite.o      idata   0x0001d8       data   0x000000
-           .idata_udefs.o      idata   0x0001d8       data   0x000000
-          .udata___init.o      udata   0x0001d8       data   0x000000
-          .idata___init.o      idata   0x0001d8       data   0x000000
-          .udata_uputrs.o      udata   0x0001d8       data   0x000000
-          .idata_uputrs.o      idata   0x0001d8       data   0x000000
-           .udata_uputs.o      udata   0x0001d8       data   0x000000
-           .idata_uputs.o      idata   0x0001d8       data   0x000000
-        .idata_fxd0808u.o      idata   0x0001d8       data   0x000000
-        .udata_fxd0808u.o      udata   0x0001d8       data   0x000000
-           .idata_c018i.o      idata   0x0001d8       data   0x000000
-             .idata_gsm.o      idata   0x0001d8       data   0x000000
-                     gpr4      udata   0x0001d8       data   0x000000
-                     gpr2      udata   0x0001d8       data   0x000000
-                     gpr1      udata   0x0001d8       data   0x000000
-                     gpr0      udata   0x0001d8       data   0x000000
-       .idata_globleVar.o      idata   0x0001d8       data   0x000000
-       .udata_globleVar.o      udata   0x0001d8       data   0x000000
-            .idata_init.o      idata   0x0001d8       data   0x000000
-            .udata_init.o      udata   0x0001d8       data   0x000000
-            .idata_main.o      idata   0x0001d8       data   0x000000
-            .udata_main.o      udata   0x0001d8       data   0x000000
-                   .stack      udata   0x000e00       data   0x000100
+                MATH_DATA      udata   0x000000       data   0x000014
+                 .tmpdata      udata   0x000014       data   0x000010
+                DELAYDAT2      udata   0x000024       data   0x000001
+                DELAYDAT1      udata   0x000025       data   0x000001
+                     gpr2      udata   0x000060       data   0x000099
+             .udata_gsm.o      udata   0x0000f9       data   0x000003
+                     gpr1      udata   0x000100       data   0x0000d7
+             .udata_adc.o      udata   0x0001d7       data   0x000009
+                   .stack      udata   0x000d00       data   0x000100
+                     gpr3      udata   0x000e00       data   0x0000ea
+           .udata_c018i.o      udata   0x000eea       data   0x00000a
+           .udata_udefs.o      udata   0x000ef4       data   0x000001
+           .idata_uputs.o      idata   0x000ef5       data   0x000000
+           .udata_uputs.o      udata   0x000ef5       data   0x000000
+          .idata_uputrs.o      idata   0x000ef5       data   0x000000
+          .udata_uputrs.o      udata   0x000ef5       data   0x000000
+          .idata___init.o      idata   0x000ef5       data   0x000000
+          .udata___init.o      udata   0x000ef5       data   0x000000
+           .idata_udefs.o      idata   0x000ef5       data   0x000000
+          .idata_uwrite.o      idata   0x000ef5       data   0x000000
+          .udata_uwrite.o      udata   0x000ef5       data   0x000000
+         .idata_t1write.o      idata   0x000ef5       data   0x000000
+         .udata_t1write.o      udata   0x000ef5       data   0x000000
+          .idata_t1open.o      idata   0x000ef5       data   0x000000
+          .udata_t1open.o      udata   0x000ef5       data   0x000000
+        .idata_fxd0808u.o      idata   0x000ef5       data   0x000000
+        .udata_fxd0808u.o      udata   0x000ef5       data   0x000000
+           .idata_c018i.o      idata   0x000ef5       data   0x000000
+            .udata_main.o      udata   0x000ef5       data   0x000000
+                     gpr4      udata   0x000ef5       data   0x000000
+            .idata_main.o      idata   0x000ef5       data   0x000000
+            .udata_init.o      udata   0x000ef5       data   0x000000
+                     gpr0      udata   0x000ef5       data   0x000000
+       .idata_globleVar.o      idata   0x000ef5       data   0x000000
+       .udata_globleVar.o      udata   0x000ef5       data   0x000000
+             .idata_irq.o      idata   0x000ef5       data   0x000000
+             .udata_irq.o      udata   0x000ef5       data   0x000000
+             .idata_adc.o      idata   0x000ef5       data   0x000000
+            .idata_init.o      idata   0x000ef5       data   0x000000
+             .idata_gsm.o      idata   0x000ef5       data   0x000000
             SFR_UNBANKED0      udata   0x000f77       data   0x000089
 
 
@@ -108,49 +119,71 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
                                Start         End      
                            ---------   ---------      
                             0x000000    0x00000f      
-                            0x000018    0x006656      
-                            0x006658    0x006c0d      
+                            0x000018    0x006b54      
+                            0x006b56    0x00756f      
                             0x300001    0x300003      
                             0x300005    0x300006      
                             0x300008    0x30000d      
-            27664 out of 66584 program addresses used, program memory utilization is 41%
+            30066 out of 66584 program addresses used, program memory utilization is 45%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                 ADC_Init   0x0067da    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-                   D10K_1   0x006b66    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x006b72    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x006b64    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
-             Delay10KTCYx   0x006b5a    program     extern C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
-         Distinguish_Send   0x002c82    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-                 FXD0808U   0x006bf2    program     extern C:\MCC18\v3_39\src\traditional\math\fxd0808u.c
-                   InitIO   0x00672c    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-                  InitSSP   0x00670e    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-                InitUSART   0x0067a0    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-           Init_interrupt   0x006658    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-     InterruptServiceHigh   0x0068da    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-      InterruptServiceLow   0x006922    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-      InterruptVectorHigh   0x000008    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-       InterruptVectorLow   0x000018    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-                 My_Delay   0x00615a    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-                My_Delay1   0x006186    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               OpenTimer1   0x006ae0    program     extern C:\MCC18\v3_39\src\pmc_common\Timers\t1open.c
-             SendMessage2   0x0023fe    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              Timer0_Init   0x0066ca    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-              Timer1_Init   0x0066dc    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-              Timer2_Init   0x0066fc    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-              Timer3_Init   0x00670c    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-              WriteTimer1   0x006b22    program     extern C:\MCC18\v3_39\src\pmc_common\Timers\t1write.c
-               WriteUSART   0x006b88    program     extern C:\MCC18\v3_39\src\pmc_common\USART\uwrite.c
-              _2jContinue   0x006866    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-              _3jContinue   0x006832    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
-                   _3jEnd   0x006870    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-                   _4jEnd   0x00683c    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
-       _D10KTCYXCODE_0010   0x006b6a    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x006b76    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+                 ADC_Init   0x007122    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+                   D10K_1   0x0074c8    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x0074d4    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x0074c6    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+             Delay10KTCYx   0x0074bc    program     extern C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+         Distinguish_Send   0x002c82    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                 FLO1632S   0x0061c6    program     extern C:\MCC18\v3_39\src\traditional\math\cast16FP.asm
+                 FLO1632U   0x0061c2    program     extern C:\MCC18\v3_39\src\traditional\math\cast16FP.asm
+                    FPA32   0x00636e    program     extern C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                    FPD32   0x0061ec    program     extern C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                    FPM32   0x006292    program     extern C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+                    FPS32   0x00636c    program     extern C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 FXD0808U   0x007554    program     extern C:\MCC18\v3_39\src\traditional\math\fxd0808u.c
+            FilterRead_Ad   0x006b56    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\adc.c
+                  INT3216   0x00649a    program     extern C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                   InitIO   0x007074    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+                  InitSSP   0x007056    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+                InitUSART   0x0070e8    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+           Init_interrupt   0x006fa0    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+     InterruptServiceHigh   0x007234    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+      InterruptServiceLow   0x00727c    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+      InterruptVectorHigh   0x000008    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+       InterruptVectorLow   0x000018    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+                 My_Delay   0x00615a    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                My_Delay1   0x006186    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               OpenTimer1   0x007442    program     extern C:\MCC18\v3_39\src\pmc_common\Timers\t1open.c
+             SendMessage2   0x0023fe    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                  TAGTB32   0x0064f8    program     extern C:\MCC18\v3_39\src\traditional\math\gtFP.asm
+              Timer0_Init   0x007012    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+              Timer1_Init   0x007024    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+              Timer2_Init   0x007044    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+              Timer3_Init   0x007054    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+              WriteTimer1   0x007484    program     extern C:\MCC18\v3_39\src\pmc_common\Timers\t1write.c
+               WriteUSART   0x0074ea    program     extern C:\MCC18\v3_39\src\pmc_common\USART\uwrite.c
+              _2jContinue   0x0071c0    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+              _3jContinue   0x00718c    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
+                   _3jEnd   0x0071ca    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+                   _4jEnd   0x007196    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
+       _D10KTCYXCODE_0010   0x0074cc    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x0074d8    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+              __FpCompare   0x00650a    program     extern C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                 __FpExit   0x0065c0    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+                 __FpPack   0x0065ec    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+            __FpReturnNaN   0x0065b4    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x0065c6    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x0065de    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x0065cc    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x0065e6    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x0065c2    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x0065da    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+              __FpReturnW   0x006644    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+              __FpUnPackA   0x006664    program     extern C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x006694    program     extern C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
      ___case_100_lbl00299   0x002b52    program     static                          
      ___case_101_lbl00300   0x002b9c    program     static                          
       ___case_13_lbl00024   0x0003cc    program     static                          
@@ -191,6 +224,7 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
            ___do_lbl00444   0x0061a0    program     static                          
            ___do_lbl00445   0x0061a8    program     static                          
            ___do_lbl00446   0x006192    program     static                          
+         ___else_lbl00007   0x006c1c    program     static                          
          ___else_lbl00019   0x000368    program     static                          
          ___else_lbl00021   0x0003c6    program     static                          
          ___else_lbl00059   0x000898    program     static                          
@@ -248,6 +282,9 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
          ___else_lbl00403   0x005cb0    program     static                          
          ___else_lbl00405   0x005c62    program     static                          
          ___else_lbl00407   0x005c14    program     static                          
+          ___for_lbl00001   0x006c56    program     static                          
+          ___for_lbl00002   0x006c5a    program     static                          
+          ___for_lbl00008   0x006b84    program     static                          
           ___for_lbl00223   0x001ab4    program     static                          
           ___for_lbl00224   0x001ab8    program     static                          
           ___for_lbl00227   0x001a4e    program     static                          
@@ -288,6 +325,8 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
           ___for_lbl00437   0x006144    program     static                          
           ___for_lbl00438   0x006126    program     static                          
            ___if_lbl00001   0x000082    program     static                          
+           ___if_lbl00005   0x006c56    program     static                          
+           ___if_lbl00006   0x006c56    program     static                          
            ___if_lbl00007   0x00013e    program     static                          
            ___if_lbl00012   0x0001c0    program     static                          
            ___if_lbl00013   0x0001da    program     static                          
@@ -399,14 +438,15 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
            ___if_lbl00402   0x005de6    program     static                          
            ___if_lbl00404   0x005de6    program     static                          
            ___if_lbl00406   0x005e00    program     static                          
-       ___return_lbl00000   0x0001e4    program     static                          
        ___return_lbl00000   0x00000c    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00000   0x006c0c    program     static                          
+       ___return_lbl00000   0x00756e    program     static                          
+       ___return_lbl00000   0x006ca0    program     static                          
+       ___return_lbl00000   0x0001e4    program     static                          
+       ___return_lbl00001   0x007552    program     static                          
        ___return_lbl00001   0x00001c    program     static                          
-       ___return_lbl00001   0x006bf0    program     static                          
-       ___return_lbl00002   0x006a2e    program     static                          
-       ___return_lbl00006   0x00679e    program     static                          
+       ___return_lbl00002   0x007390    program     static                          
+       ___return_lbl00006   0x0070e6    program     static                          
        ___return_lbl00014   0x000496    program     static                          
        ___return_lbl00026   0x001938    program     static                          
        ___return_lbl00215   0x001e2a    program     static                          
@@ -420,84 +460,86 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
    ___switchexit_lbl00016   0x000494    program     static                          
    ___switchexit_lbl00286   0x002c30    program     static                          
    ___switchexit_lbl00308   0x003372    program     static                          
-               __config_0   0x300001    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_1   0x300002    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-              __config_10   0x30000d    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_2   0x300003    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_3   0x300005    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_4   0x300006    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_5   0x300008    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_6   0x300009    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_7   0x30000a    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_8   0x30000b    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_9   0x30000c    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
+        ___while_lbl00003   0x006b8c    program     static                          
+        ___while_lbl00004   0x006b90    program     static                          
+               __config_0   0x300001    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_1   0x300002    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+              __config_10   0x30000d    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_2   0x300003    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_3   0x300005    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_4   0x300006    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_5   0x300008    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_6   0x300009    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_7   0x30000a    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_8   0x30000b    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_9   0x30000c    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
                    __init   0x00000e    program     extern C:\MCC18\v3_39\src\traditional\stdclib\__init.c
-               __string_0   0x00664b    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_1   0x00662c    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_10   0x0065db    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_11   0x0065d2    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_12   0x0065c7    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_13   0x0065bc    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_14   0x0065b3    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_15   0x0065aa    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_16   0x00659e    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_17   0x00657f    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_18   0x006572    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_19   0x006565    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_2   0x006623    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_20   0x006558    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_21   0x00654b    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_22   0x00653e    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_23   0x006531    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_24   0x006524    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_25   0x006517    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_26   0x00650a    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_27   0x0064fd    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_28   0x0064f0    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_29   0x0064e3    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_3   0x00661a    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_30   0x0064d6    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_31   0x0064c9    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_32   0x0064bc    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_33   0x0064af    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_34   0x0064a2    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_35   0x006495    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_36   0x006480    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_37   0x00646b    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_38   0x006452    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_39   0x006425    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_4   0x006611    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_40   0x0063f8    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_41   0x0063c7    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_42   0x006396    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_43   0x006379    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_44   0x00636c    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_45   0x006357    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_46   0x00634a    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_47   0x006335    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_48   0x006320    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_49   0x00630f    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_5   0x006608    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_50   0x0062fe    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_51   0x0062ed    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_52   0x0062dc    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_53   0x0062cb    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_54   0x0062ba    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_55   0x0062a1    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_56   0x006290    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_57   0x006277    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_58   0x006232    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_59   0x006215    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_6   0x0065ff    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_60   0x0061f8    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_61   0x0061e7    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_62   0x0061dd    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_63   0x0061d4    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_64   0x0061cb    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_65   0x0061c2    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_7   0x0065f6    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_8   0x0065ed    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_9   0x0065e4    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
+               __string_0   0x006b49    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_1   0x006b2a    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_10   0x006ad9    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_11   0x006ad0    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_12   0x006ac5    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_13   0x006aba    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_14   0x006ab1    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_15   0x006aa8    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_16   0x006a9c    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_17   0x006a7d    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_18   0x006a70    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_19   0x006a63    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_2   0x006b21    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_20   0x006a56    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_21   0x006a49    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_22   0x006a3c    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_23   0x006a2f    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_24   0x006a22    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_25   0x006a15    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_26   0x006a08    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_27   0x0069fb    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_28   0x0069ee    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_29   0x0069e1    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_3   0x006b18    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_30   0x0069d4    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_31   0x0069c7    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_32   0x0069ba    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_33   0x0069ad    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_34   0x0069a0    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_35   0x006993    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_36   0x00697e    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_37   0x006969    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_38   0x006950    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_39   0x006923    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_4   0x006b0f    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_40   0x0068f6    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_41   0x0068c5    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_42   0x006894    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_43   0x006877    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_44   0x00686a    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_45   0x006855    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_46   0x006848    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_47   0x006833    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_48   0x00681e    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_49   0x00680d    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_5   0x006b06    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_50   0x0067fc    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_51   0x0067eb    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_52   0x0067da    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_53   0x0067c9    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_54   0x0067b8    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_55   0x00679f    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_56   0x00678e    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_57   0x006775    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_58   0x006730    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_59   0x006713    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_6   0x006afd    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_60   0x0066f6    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_61   0x0066e5    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_62   0x0066db    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_63   0x0066d2    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_64   0x0066c9    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_65   0x0066c0    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_7   0x006af4    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_8   0x006aeb    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_9   0x006ae2    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
                __tmplbl_0   0x000122    program     static                          
                __tmplbl_1   0x000104    program     static                          
               __tmplbl_10   0x000150    program     static                          
@@ -704,51 +746,109 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
               __tmplbl_97   0x000f44    program     static                          
               __tmplbl_98   0x000f26    program     static                          
               __tmplbl_99   0x001000    program     static                          
-            __zero_memory   0x006bb6    program     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                _do_cinit   0x006992    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
+            __zero_memory   0x007518    program     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                _do_cinit   0x0072f4    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                 _startup   0x006bd6    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                compare_l   0x006bcc    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                copy_loop   0x006a04    program     static                          
-            copy_one_byte   0x006a0a    program     static                          
-                     done   0x006a2e    program     static                          
-             done_copying   0x006a18    program     static                          
-                  endloop   0x006c08    program     static                          
-                   gsmAna   0x0001ec    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-                 gsmCheck   0x0061b2    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-                  gsmData   0x0033c6    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-                    gsmOC   0x0004ae    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-                    gsmPA   0x001e42    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-                 gsmPhone   0x001940    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              gsmPhoneCon   0x00203c    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-                   gsmRec   0x00001e    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-                  initMCU   0x0067fe    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-                     jEnd   0x0068d8    program     static C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
-                     jEnd   0x0068b0    program     static C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
-                     jEnd   0x006878    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-                     jEnd   0x006844    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
-                    jLoop   0x006826    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
-                    jLoop   0x0068be    program     static C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
-                    jLoop   0x0068a6    program     static C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
-                    jLoop   0x00685a    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-                   jMatch   0x0068d0    program     static C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
-                jNullLoop   0x0068a0    program     static C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
-               lenConvert   0x005f4a    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-                     loop   0x006be6    program     static                          
-                     loop   0x006bfa    program     static                          
-                   loop_h   0x006bc4    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                   loop_l   0x006bce    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                     main   0x00698e    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-            memcpypgm2ram   0x006800    program     extern C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
-                   memset   0x006846    program     extern C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-              phoneNumWoR   0x005e32    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               putrsUSART   0x006a30    program     extern C:\MCC18\v3_39\src\pmc_common\USART\uputrs.c
-                putsUSART   0x006a94    program     extern C:\MCC18\v3_39\src\pmc_common\USART\uputs.c
-            strcatpgm2ram   0x00687a    program     extern C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
-                   strchr   0x0068b2    program     extern C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
-                     test   0x0069ac    program     static                          
-            usartSendData   0x00611a    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               zero_block   0x006bc4    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                 _startup   0x007538    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                       ad   0x006f70    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\adc.c
+           commit_convert   0x006cb4    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\adc.c
+                compare_l   0x00752e    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                copy_loop   0x007366    program     static                          
+            copy_one_byte   0x00736c    program     static                          
+                     done   0x007390    program     static                          
+             done_copying   0x00737a    program     static                          
+                  endloop   0x00756a    program     static                          
+                   gsmAna   0x0001ec    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                 gsmCheck   0x0061b2    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                  gsmData   0x0033c6    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                    gsmOC   0x0004ae    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                    gsmPA   0x001e42    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                 gsmPhone   0x001940    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              gsmPhoneCon   0x00203c    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                   gsmRec   0x00001e    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                  initMCU   0x007146    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+                 jANotInf   0x00620a    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                 jANotInf   0x0062b0    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+                 jANotInf   0x006396    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 jANotNeg   0x00642a    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                jANotZero   0x00621e    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+              jAandWsetup   0x0063fa    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                  jAisNeg   0x006586    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                 jAltBexp   0x0063e8    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                jBANotInf   0x00638c    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 jBNotInf   0x0063a4    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+              jBothFinite   0x0062be    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+             jBothNotZero   0x0062ca    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+             jBothNotZero   0x006528    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+            jDifOrPosSign   0x0063b8    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                      jEQ   0x006544    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                     jEnd   0x00719e    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
+                     jEnd   0x0071d2    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+                     jEnd   0x00720a    program     static C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
+                     jEnd   0x007232    program     static C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
+                    jExch   0x006550    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                    jExit   0x0064f6    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                   jExpEQ   0x006596    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                   jFinal   0x00657a    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+               jFinalSign   0x006492    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                jHaveZero   0x0062c6    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+                jI2F16Beg   0x0061d6    program     static C:\MCC18\v3_39\src\traditional\math\cast16FP.asm
+                    jLoop   0x0064d6    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                    jLoop   0x007218    program     static C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
+                    jLoop   0x006246    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                    jLoop   0x007200    program     static C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
+                    jLoop   0x007180    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
+                    jLoop   0x0071b4    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+                jLoopExit   0x0064e6    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                   jMatch   0x00722a    program     static C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
+                     jMax   0x0064aa    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                  jMaxNeg   0x0064b8    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                  jMaxPos   0x0064ae    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                      jNE   0x006548    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                    jNext   0x00626c    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                jNoAdjust   0x00626a    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                  jNoExch   0x006570    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+             jNotBothZero   0x0063bc    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                  jNotInf   0x0064c6    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                jNullLoop   0x0071fa    program     static C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
+                  jPkLoop   0x0065fa    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+             jPkRoundDone   0x006644    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+               jPkRoundIt   0x00662c    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+             jPkShiftDone   0x006616    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x0065d0    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+                  jRotate   0x0065a2    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                   jShift   0x00658c    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+               jShiftDone   0x006452    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+               jShiftLoop   0x006444    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                jSignDone   0x006482    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+              jSignedZero   0x006214    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                 jSignsEQ   0x00652c    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                  jUnpkA1   0x00666e    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x006686    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x00667c    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x00669e    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x0066b6    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x0066ac    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x006690    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                 jWNotNeg   0x00643e    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                    jZero   0x0064c0    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+               jZero1and2   0x0065d4    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+               lenConvert   0x005f4a    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                     loop   0x007548    program     static                          
+                     loop   0x00755c    program     static                          
+                   loop_h   0x007526    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                   loop_l   0x007530    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                     main   0x0072e8    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+            memcpypgm2ram   0x00715a    program     extern C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
+                   memset   0x0071a0    program     extern C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+              phoneNumWoR   0x005e32    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               putrsUSART   0x007392    program     extern C:\MCC18\v3_39\src\pmc_common\USART\uputrs.c
+                putsUSART   0x0073f6    program     extern C:\MCC18\v3_39\src\pmc_common\USART\uputs.c
+            strcatpgm2ram   0x0071d4    program     extern C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
+                   strchr   0x00720c    program     extern C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
+                     test   0x00730e    program     static                          
+            usartSendData   0x00611a    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               zero_block   0x007526    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    ADCON0   0x000fc2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                ADCON0bits   0x000fc2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    ADCON1   0x000fc1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
@@ -797,8 +897,8 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
                  DDRDbits   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      DDRE   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  DDREbits   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-            DelayCounter1   0x000017       data     extern C:\MCC18\v3_39\src\traditional\delays\delayd1.asm
-            DelayCounter2   0x000016       data     extern C:\MCC18\v3_39\src\traditional\delays\delayd2.asm
+            DelayCounter1   0x000025       data     extern C:\MCC18\v3_39\src\traditional\delays\delayd1.asm
+            DelayCounter2   0x000024       data     extern C:\MCC18\v3_39\src\traditional\delays\delayd2.asm
                   ECCP1AS   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
               ECCP1ASbits   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     EEADR   0x000fa9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
@@ -847,7 +947,7 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
                  LATEbits   0x000f8d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    LVDCON   0x000fd2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                LVDCONbits   0x000fd2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                 OAOffset   0x0001d5       data     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
+                 OAOffset   0x0000fa       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
                    OSCCON   0x000fd3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                OSCCONbits   0x000fd3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   OSCTUNE   0x000f9b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
@@ -894,12 +994,14 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
               PSTRCONbits   0x000fb9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   PWM1CON   0x000fb7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
               PWM1CONbits   0x000fb7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                      Prt   0x000ecf       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
                      RCON   0x000fd0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  RCONbits   0x000fd0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     RCREG   0x000fae       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     RCSTA   0x000fab       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                 RCSTAbits   0x000fab       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                SCAOffset   0x0001d4       data     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
+           ReadMessagecon   0x000e01       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                SCAOffset   0x0000f9       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
                      SIGN   0x00000e       data     extern C:\MCC18\v3_39\src\traditional\math\cmath18.asm
                    SLRCON   0x000f78       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                SLRCONbits   0x000f78       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
@@ -919,6 +1021,9 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
                STATUSbits   0x000fd8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    STKPTR   0x000ffc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                STKPTRbits   0x000ffc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+              S_To_M_buf0   0x000060       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+              S_To_M_buf1   0x0000ac       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                 SspQueue   0x000100       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
                     T0CON   0x000fd5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                 T0CONbits   0x000fd5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     T1CON   0x000fcd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
@@ -956,8 +1061,10 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
                     TXREG   0x000fad       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     TXSTA   0x000fac       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                 TXSTAbits   0x000fac       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                 UDOffset   0x0001d6       data     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-             USART_Status   0x0001d7       data     extern C:\MCC18\v3_39\src\pmc_common\USART\udefs.c
+                 Time0con   0x0001c9       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                  TimeOut   0x0001c8       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                 UDOffset   0x0000fb       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+             USART_Status   0x000ef4       data     extern C:\MCC18\v3_39\src\pmc_common\USART\udefs.c
                         W   0x000fe8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    WDTCON   0x000fd1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                WDTCONbits   0x000fd1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
@@ -984,14 +1091,36 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
                   __REMB1   0x000002       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                   __REMB2   0x000001       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                   __REMB3   0x000000       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
-                  __tmp_0   0x000010       data     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-                curr_byte   0x0001cd       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
-               curr_entry   0x0001cf       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                 data_ptr   0x0001d1       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                   gsmBuf   0x000101       data     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\globleVar.c
-               gsmreCount   0x000100       data     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\globleVar.c
-              gsmreStatus   0x0001c9       data     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\globleVar.c
-                     prom   0x0001ca       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                   __TEMP   0x000013       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000013       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000012       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000011       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                 __TEMPB3   0x000010       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                  __tmp_0   0x000014       data     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                  __tmp_0   0x000014       data     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\adc.c
+                 acStatus   0x0001cb       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                   buf_ad   0x0001d7       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\adc.c
+             chargeStatus   0x0001d1       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                     csqH   0x000ecd       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                     csqL   0x000ece       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                curr_byte   0x000eed       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+               curr_entry   0x000eef       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                 data_ptr   0x000ef1       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                   gsmBuf   0x000e02       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                  gsmFlag   0x000ecb       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                 gsmFlag1   0x000ecc       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+              gsmPhoneNum   0x000ed1       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+               gsmreCount   0x000e00       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+              gsmreStatus   0x000eca       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+              lightStatus   0x0001d3       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+               modeStatus   0x0001d5       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                netStatus   0x0001cd       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                 phone1SM   0x000ede       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                 phone2SM   0x000ee4       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                     prom   0x000eea       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                    smCmd   0x000edd       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                  sysFlag   0x0000f8       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+            troubleStatus   0x0001cf       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
 
 
 
@@ -1000,12 +1129,12 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
                 ---------  ---------  ---------  --------- ---------                
                    _entry   0x000000    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
        ___return_lbl00000   0x000004    program     static                          
-      InterruptVectorHigh   0x000008    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
+      InterruptVectorHigh   0x000008    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
        ___return_lbl00000   0x00000c    program     static                          
                    __init   0x00000e    program     extern C:\MCC18\v3_39\src\traditional\stdclib\__init.c
-       InterruptVectorLow   0x000018    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
+       InterruptVectorLow   0x000018    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
        ___return_lbl00001   0x00001c    program     static                          
-                   gsmRec   0x00001e    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
+                   gsmRec   0x00001e    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
            ___if_lbl00001   0x000082    program     static                          
                __tmplbl_5   0x00008a    program     static                          
                __tmplbl_4   0x0000aa    program     static                          
@@ -1022,12 +1151,12 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
            ___if_lbl00012   0x0001c0    program     static                          
            ___if_lbl00013   0x0001da    program     static                          
        ___return_lbl00000   0x0001e4    program     static                          
-                   gsmAna   0x0001ec    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
+                   gsmAna   0x0001ec    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
            ___if_lbl00015   0x000312    program     static                          
        ___case_3_lbl00022   0x00031e    program     static                          
          ___else_lbl00019   0x000368    program     static                          
-           ___if_lbl00017   0x000374    program     static                          
            ___if_lbl00018   0x000374    program     static                          
+           ___if_lbl00017   0x000374    program     static                          
          ___else_lbl00021   0x0003c6    program     static                          
            ___if_lbl00020   0x0003ca    program     static                          
       ___case_13_lbl00024   0x0003cc    program     static                          
@@ -1035,7 +1164,7 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
       ___default_lbl00025   0x000490    program     static                          
    ___switchexit_lbl00016   0x000494    program     static                          
        ___return_lbl00014   0x000496    program     static                          
-                    gsmOC   0x0004ae    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
+                    gsmOC   0x0004ae    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
               __tmplbl_22   0x0004ca    program     static                          
               __tmplbl_21   0x0004ea    program     static                          
               __tmplbl_20   0x00050a    program     static                          
@@ -1092,11 +1221,11 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
               __tmplbl_57   0x000a54    program     static                          
               __tmplbl_56   0x000a72    program     static                          
               __tmplbl_55   0x000a90    program     static                          
-           ___if_lbl00073   0x000a96    program     static                          
            ___if_lbl00075   0x000a96    program     static                          
+           ___if_lbl00073   0x000a96    program     static                          
            ___if_lbl00072   0x000a96    program     static                          
-           ___if_lbl00070   0x000a96    program     static                          
            ___if_lbl00069   0x000a96    program     static                          
+           ___if_lbl00070   0x000a96    program     static                          
          ___else_lbl00212   0x000a9a    program     static                          
               __tmplbl_62   0x000aae    program     static                          
               __tmplbl_61   0x000ace    program     static                          
@@ -1131,10 +1260,10 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
               __tmplbl_85   0x000dcc    program     static                          
               __tmplbl_84   0x000dea    program     static                          
               __tmplbl_83   0x000e08    program     static                          
-           ___if_lbl00105   0x000e0e    program     static                          
            ___if_lbl00104   0x000e0e    program     static                          
            ___if_lbl00102   0x000e0e    program     static                          
            ___if_lbl00101   0x000e0e    program     static                          
+           ___if_lbl00105   0x000e0e    program     static                          
          ___else_lbl00210   0x000e12    program     static                          
               __tmplbl_90   0x000e26    program     static                          
               __tmplbl_89   0x000e46    program     static                          
@@ -1153,9 +1282,9 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
              __tmplbl_101   0x000fc4    program     static                          
              __tmplbl_100   0x000fe2    program     static                          
               __tmplbl_99   0x001000    program     static                          
-           ___if_lbl00122   0x001006    program     static                          
-           ___if_lbl00120   0x001006    program     static                          
            ___if_lbl00119   0x001006    program     static                          
+           ___if_lbl00120   0x001006    program     static                          
+           ___if_lbl00122   0x001006    program     static                          
          ___else_lbl00208   0x00100a    program     static                          
              __tmplbl_106   0x00101e    program     static                          
              __tmplbl_105   0x00103e    program     static                          
@@ -1179,10 +1308,10 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
              __tmplbl_121   0x001238    program     static                          
              __tmplbl_120   0x001256    program     static                          
              __tmplbl_119   0x001274    program     static                          
-           ___if_lbl00141   0x001278    program     static                          
-           ___if_lbl00139   0x001278    program     static                          
-           ___if_lbl00138   0x001278    program     static                          
            ___if_lbl00143   0x001278    program     static                          
+           ___if_lbl00138   0x001278    program     static                          
+           ___if_lbl00139   0x001278    program     static                          
+           ___if_lbl00141   0x001278    program     static                          
          ___else_lbl00206   0x00127a    program     static                          
              __tmplbl_126   0x00128e    program     static                          
              __tmplbl_125   0x0012ae    program     static                          
@@ -1211,11 +1340,11 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
              __tmplbl_145   0x001526    program     static                          
              __tmplbl_144   0x001544    program     static                          
              __tmplbl_143   0x001562    program     static                          
-           ___if_lbl00162   0x001566    program     static                          
-           ___if_lbl00163   0x001566    program     static                          
-           ___if_lbl00165   0x001566    program     static                          
-           ___if_lbl00167   0x001566    program     static                          
            ___if_lbl00169   0x001566    program     static                          
+           ___if_lbl00167   0x001566    program     static                          
+           ___if_lbl00165   0x001566    program     static                          
+           ___if_lbl00163   0x001566    program     static                          
+           ___if_lbl00162   0x001566    program     static                          
              __tmplbl_150   0x001584    program     static                          
              __tmplbl_149   0x0015a2    program     static                          
              __tmplbl_148   0x0015c0    program     static                          
@@ -1239,8 +1368,8 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
              __tmplbl_165   0x001786    program     static                          
              __tmplbl_164   0x0017a4    program     static                          
              __tmplbl_163   0x0017c2    program     static                          
-           ___if_lbl00188   0x0017c6    program     static                          
            ___if_lbl00187   0x0017c6    program     static                          
+           ___if_lbl00188   0x0017c6    program     static                          
          ___else_lbl00202   0x0017c8    program     static                          
              __tmplbl_170   0x0017dc    program     static                          
              __tmplbl_169   0x0017fc    program     static                          
@@ -1258,14 +1387,14 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
            ___if_lbl00199   0x001932    program     static                          
            ___if_lbl00200   0x001932    program     static                          
            ___if_lbl00201   0x001932    program     static                          
-           ___if_lbl00213   0x001932    program     static                          
-           ___if_lbl00211   0x001932    program     static                          
-           ___if_lbl00209   0x001932    program     static                          
-           ___if_lbl00207   0x001932    program     static                          
-           ___if_lbl00205   0x001932    program     static                          
            ___if_lbl00203   0x001932    program     static                          
+           ___if_lbl00205   0x001932    program     static                          
+           ___if_lbl00207   0x001932    program     static                          
+           ___if_lbl00209   0x001932    program     static                          
+           ___if_lbl00211   0x001932    program     static                          
+           ___if_lbl00213   0x001932    program     static                          
        ___return_lbl00026   0x001938    program     static                          
-                 gsmPhone   0x001940    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
+                 gsmPhone   0x001940    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
              __tmplbl_183   0x001962    program     static                          
              __tmplbl_182   0x001982    program     static                          
              __tmplbl_181   0x0019a2    program     static                          
@@ -1278,8 +1407,8 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
           ___for_lbl00227   0x001a4e    program     static                          
              __tmplbl_189   0x001a84    program     static                          
              __tmplbl_188   0x001ab0    program     static                          
-          ___for_lbl00223   0x001ab4    program     static                          
            ___if_lbl00226   0x001ab4    program     static                          
+          ___for_lbl00223   0x001ab4    program     static                          
           ___for_lbl00224   0x001ab8    program     static                          
           ___for_lbl00230   0x001aba    program     static                          
           ___for_lbl00228   0x001b08    program     static                          
@@ -1298,8 +1427,8 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
           ___for_lbl00241   0x001c02    program     static                          
           ___for_lbl00239   0x001c52    program     static                          
           ___for_lbl00240   0x001c56    program     static                          
-           ___if_lbl00242   0x001c5a    program     static                          
            ___if_lbl00243   0x001c5a    program     static                          
+           ___if_lbl00242   0x001c5a    program     static                          
          ___else_lbl00264   0x001c5c    program     static                          
              __tmplbl_199   0x001c70    program     static                          
              __tmplbl_198   0x001c90    program     static                          
@@ -1321,11 +1450,11 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
           ___for_lbl00258   0x001e20    program     static                          
            ___if_lbl00260   0x001e24    program     static                          
          ___else_lbl00262   0x001e26    program     static                          
-       ___return_lbl00215   0x001e2a    program     static                          
            ___if_lbl00263   0x001e2a    program     static                          
            ___if_lbl00261   0x001e2a    program     static                          
-                    gsmPA   0x001e42    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              gsmPhoneCon   0x00203c    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
+       ___return_lbl00215   0x001e2a    program     static                          
+                    gsmPA   0x001e42    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              gsmPhoneCon   0x00203c    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
           ___for_lbl00274   0x002302    program     static                          
            ___if_lbl00273   0x002352    program     static                          
           ___for_lbl00271   0x002352    program     static                          
@@ -1333,14 +1462,14 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
            ___if_lbl00275   0x002364    program     static                          
           ___for_lbl00283   0x002366    program     static                          
           ___for_lbl00281   0x002370    program     static                          
-          ___for_lbl00278   0x0023cc    program     static                          
            ___if_lbl00280   0x0023cc    program     static                          
+          ___for_lbl00278   0x0023cc    program     static                          
           ___for_lbl00279   0x0023d2    program     static                          
            ___if_lbl00282   0x0023de    program     static                          
           ___for_lbl00276   0x0023de    program     static                          
           ___for_lbl00277   0x0023e2    program     static                          
        ___return_lbl00270   0x0023e6    program     static                          
-             SendMessage2   0x0023fe    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
+             SendMessage2   0x0023fe    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
            ___if_lbl00285   0x0024a6    program     static                          
       ___case_50_lbl00287   0x0027da    program     static                          
       ___case_51_lbl00288   0x002824    program     static                          
@@ -1359,7 +1488,7 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
       ___default_lbl00301   0x002be6    program     static                          
    ___switchexit_lbl00286   0x002c30    program     static                          
        ___return_lbl00284   0x002c7a    program     static                          
-         Distinguish_Send   0x002c82    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
+         Distinguish_Send   0x002c82    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
           ___for_lbl00306   0x002d02    program     static                          
            ___if_lbl00305   0x002d38    program     static                          
           ___for_lbl00303   0x002d38    program     static                          
@@ -1383,7 +1512,7 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
       ___case_80_lbl00324   0x003342    program     static                          
    ___switchexit_lbl00308   0x003372    program     static                          
        ___return_lbl00302   0x0033bc    program     static                          
-                  gsmData   0x0033c6    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
+                  gsmData   0x0033c6    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
          ___else_lbl00327   0x00343c    program     static                          
            ___if_lbl00326   0x003440    program     static                          
          ___else_lbl00330   0x00440a    program     static                          
@@ -1396,43 +1525,43 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
            ___if_lbl00335   0x004964    program     static                          
            ___if_lbl00334   0x004964    program     static                          
          ___else_lbl00339   0x0049b2    program     static                          
-           ___if_lbl00337   0x0049fe    program     static                          
            ___if_lbl00338   0x0049fe    program     static                          
+           ___if_lbl00337   0x0049fe    program     static                          
          ___else_lbl00344   0x004af6    program     static                          
          ___else_lbl00342   0x004b32    program     static                          
-           ___if_lbl00340   0x004b6c    program     static                          
            ___if_lbl00341   0x004b6c    program     static                          
+           ___if_lbl00340   0x004b6c    program     static                          
            ___if_lbl00343   0x004be0    program     static                          
          ___else_lbl00346   0x004ca0    program     static                          
            ___if_lbl00345   0x004d14    program     static                          
          ___else_lbl00349   0x004dbc    program     static                          
-           ___if_lbl00347   0x004df6    program     static                          
            ___if_lbl00348   0x004df6    program     static                          
+           ___if_lbl00347   0x004df6    program     static                          
           ___for_lbl00369   0x004e9e    program     static                          
          ___else_lbl00358   0x004ebc    program     static                          
          ___else_lbl00356   0x004ec8    program     static                          
          ___else_lbl00354   0x004ed6    program     static                          
-           ___if_lbl00353   0x004ee2    program     static                          
            ___if_lbl00352   0x004ee2    program     static                          
+           ___if_lbl00353   0x004ee2    program     static                          
            ___if_lbl00355   0x004ee2    program     static                          
            ___if_lbl00357   0x004ee2    program     static                          
          ___else_lbl00368   0x004fda    program     static                          
          ___else_lbl00365   0x004fec    program     static                          
          ___else_lbl00363   0x004ffe    program     static                          
          ___else_lbl00361   0x005012    program     static                          
-           ___if_lbl00359   0x005024    program     static                          
-           ___if_lbl00360   0x005024    program     static                          
-           ___if_lbl00362   0x005024    program     static                          
            ___if_lbl00364   0x005024    program     static                          
+           ___if_lbl00362   0x005024    program     static                          
+           ___if_lbl00360   0x005024    program     static                          
+           ___if_lbl00359   0x005024    program     static                          
            ___if_lbl00366   0x00508c    program     static                          
-           ___if_lbl00367   0x005110    program     static                          
           ___for_lbl00350   0x005110    program     static                          
+           ___if_lbl00367   0x005110    program     static                          
           ___for_lbl00351   0x005116    program     static                          
          ___else_lbl00374   0x005200    program     static                          
          ___else_lbl00372   0x005298    program     static                          
-           ___if_lbl00373   0x00532c    program     static                          
-           ___if_lbl00371   0x00532c    program     static                          
            ___if_lbl00370   0x00532c    program     static                          
+           ___if_lbl00371   0x00532c    program     static                          
+           ___if_lbl00373   0x00532c    program     static                          
          ___else_lbl00391   0x0053a6    program     static                          
          ___else_lbl00379   0x00546c    program     static                          
          ___else_lbl00377   0x005504    program     static                          
@@ -1441,35 +1570,35 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
            ___if_lbl00375   0x00559a    program     static                          
          ___else_lbl00384   0x005632    program     static                          
          ___else_lbl00382   0x0056ca    program     static                          
-           ___if_lbl00380   0x005760    program     static                          
-           ___if_lbl00381   0x005760    program     static                          
            ___if_lbl00383   0x005760    program     static                          
+           ___if_lbl00381   0x005760    program     static                          
+           ___if_lbl00380   0x005760    program     static                          
          ___else_lbl00389   0x005872    program     static                          
          ___else_lbl00387   0x005984    program     static                          
+           ___if_lbl00390   0x005a94    program     static                          
+           ___if_lbl00388   0x005a94    program     static                          
            ___if_lbl00386   0x005a94    program     static                          
            ___if_lbl00385   0x005a94    program     static                          
-           ___if_lbl00388   0x005a94    program     static                          
-           ___if_lbl00390   0x005a94    program     static                          
          ___else_lbl00394   0x005b02    program     static                          
-           ___if_lbl00392   0x005b3e    program     static                          
            ___if_lbl00393   0x005b3e    program     static                          
+           ___if_lbl00392   0x005b3e    program     static                          
          ___else_lbl00407   0x005c14    program     static                          
          ___else_lbl00405   0x005c62    program     static                          
          ___else_lbl00403   0x005cb0    program     static                          
          ___else_lbl00401   0x005cfe    program     static                          
          ___else_lbl00399   0x005d4c    program     static                          
          ___else_lbl00397   0x005d9a    program     static                          
-           ___if_lbl00395   0x005de6    program     static                          
            ___if_lbl00404   0x005de6    program     static                          
            ___if_lbl00402   0x005de6    program     static                          
            ___if_lbl00400   0x005de6    program     static                          
            ___if_lbl00398   0x005de6    program     static                          
            ___if_lbl00396   0x005de6    program     static                          
+           ___if_lbl00395   0x005de6    program     static                          
            ___if_lbl00406   0x005e00    program     static                          
        ___return_lbl00325   0x005e1a    program     static                          
-              phoneNumWoR   0x005e32    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               lenConvert   0x005f4a    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-            usartSendData   0x00611a    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
+              phoneNumWoR   0x005e32    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               lenConvert   0x005f4a    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+            usartSendData   0x00611a    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
           ___for_lbl00438   0x006126    program     static                          
           ___for_lbl00437   0x006144    program     static                          
           ___for_lbl00435   0x006146    program     static                          
@@ -1477,164 +1606,253 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
           ___for_lbl00433   0x00614a    program     static                          
           ___for_lbl00434   0x00614e    program     static                          
        ___return_lbl00432   0x006150    program     static                          
-                 My_Delay   0x00615a    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
+                 My_Delay   0x00615a    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
            ___do_lbl00442   0x006166    program     static                          
            ___do_lbl00440   0x006174    program     static                          
        ___return_lbl00439   0x00617c    program     static                          
            ___do_lbl00441   0x00617c    program     static                          
-                My_Delay1   0x006186    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
+                My_Delay1   0x006186    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
            ___do_lbl00446   0x006192    program     static                          
            ___do_lbl00444   0x0061a0    program     static                          
        ___return_lbl00443   0x0061a8    program     static                          
            ___do_lbl00445   0x0061a8    program     static                          
-                 gsmCheck   0x0061b2    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_65   0x0061c2    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_64   0x0061cb    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_63   0x0061d4    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_62   0x0061dd    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_61   0x0061e7    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_60   0x0061f8    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_59   0x006215    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_58   0x006232    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_57   0x006277    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_56   0x006290    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_55   0x0062a1    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_54   0x0062ba    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_53   0x0062cb    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_52   0x0062dc    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_51   0x0062ed    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_50   0x0062fe    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_49   0x00630f    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_48   0x006320    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_47   0x006335    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_46   0x00634a    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_45   0x006357    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_44   0x00636c    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_43   0x006379    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_42   0x006396    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_41   0x0063c7    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_40   0x0063f8    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_39   0x006425    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_38   0x006452    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_37   0x00646b    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_36   0x006480    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_35   0x006495    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_34   0x0064a2    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_33   0x0064af    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_32   0x0064bc    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_31   0x0064c9    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_30   0x0064d6    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_29   0x0064e3    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_28   0x0064f0    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_27   0x0064fd    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_26   0x00650a    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_25   0x006517    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_24   0x006524    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_23   0x006531    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_22   0x00653e    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_21   0x00654b    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_20   0x006558    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_19   0x006565    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_18   0x006572    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_17   0x00657f    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_16   0x00659e    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_15   0x0065aa    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_14   0x0065b3    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_13   0x0065bc    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_12   0x0065c7    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_11   0x0065d2    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-              __string_10   0x0065db    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_9   0x0065e4    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_8   0x0065ed    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_7   0x0065f6    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_6   0x0065ff    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_5   0x006608    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_4   0x006611    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_3   0x00661a    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_2   0x006623    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_1   0x00662c    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-               __string_0   0x00664b    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-           Init_interrupt   0x006658    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-              Timer0_Init   0x0066ca    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-              Timer1_Init   0x0066dc    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-              Timer2_Init   0x0066fc    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-              Timer3_Init   0x00670c    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-                  InitSSP   0x00670e    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-                   InitIO   0x00672c    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-       ___return_lbl00006   0x00679e    program     static                          
-                InitUSART   0x0067a0    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-                 ADC_Init   0x0067da    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-                  initMCU   0x0067fe    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\init.c
-            memcpypgm2ram   0x006800    program     extern C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
-                    jLoop   0x006826    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
-              _3jContinue   0x006832    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
-                   _4jEnd   0x00683c    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
-                     jEnd   0x006844    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
-                   memset   0x006846    program     extern C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-                    jLoop   0x00685a    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-              _2jContinue   0x006866    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-                   _3jEnd   0x006870    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-                     jEnd   0x006878    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-            strcatpgm2ram   0x00687a    program     extern C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
-                jNullLoop   0x0068a0    program     static C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
-                    jLoop   0x0068a6    program     static C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
-                     jEnd   0x0068b0    program     static C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
-                   strchr   0x0068b2    program     extern C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
-                    jLoop   0x0068be    program     static C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
-                   jMatch   0x0068d0    program     static C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
-                     jEnd   0x0068d8    program     static C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
-     InterruptServiceHigh   0x0068da    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-      InterruptServiceLow   0x006922    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-                     main   0x00698e    program     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-                _do_cinit   0x006992    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                     test   0x0069ac    program     static                          
-                copy_loop   0x006a04    program     static                          
-            copy_one_byte   0x006a0a    program     static                          
-             done_copying   0x006a18    program     static                          
-                     done   0x006a2e    program     static                          
-       ___return_lbl00002   0x006a2e    program     static                          
-               putrsUSART   0x006a30    program     extern C:\MCC18\v3_39\src\pmc_common\USART\uputrs.c
-                putsUSART   0x006a94    program     extern C:\MCC18\v3_39\src\pmc_common\USART\uputs.c
-               OpenTimer1   0x006ae0    program     extern C:\MCC18\v3_39\src\pmc_common\Timers\t1open.c
-              WriteTimer1   0x006b22    program     extern C:\MCC18\v3_39\src\pmc_common\Timers\t1write.c
-             Delay10KTCYx   0x006b5a    program     extern C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x006b64    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
-                   D10K_1   0x006b66    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_0010   0x006b6a    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x006b72    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x006b76    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
-               WriteUSART   0x006b88    program     extern C:\MCC18\v3_39\src\pmc_common\USART\uwrite.c
-            __zero_memory   0x006bb6    program     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                   loop_h   0x006bc4    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-               zero_block   0x006bc4    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                compare_l   0x006bcc    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                   loop_l   0x006bce    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                 _startup   0x006bd6    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                     loop   0x006be6    program     static                          
-       ___return_lbl00001   0x006bf0    program     static                          
-                 FXD0808U   0x006bf2    program     extern C:\MCC18\v3_39\src\traditional\math\fxd0808u.c
-                     loop   0x006bfa    program     static                          
-                  endloop   0x006c08    program     static                          
-       ___return_lbl00000   0x006c0c    program     static                          
-               __config_0   0x300001    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_1   0x300002    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_2   0x300003    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_3   0x300005    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_4   0x300006    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_5   0x300008    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_6   0x300009    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_7   0x30000a    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_8   0x30000b    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-               __config_9   0x30000c    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
-              __config_10   0x30000d    program     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\main.c
+                 gsmCheck   0x0061b2    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                 FLO1632U   0x0061c2    program     extern C:\MCC18\v3_39\src\traditional\math\cast16FP.asm
+                 FLO1632S   0x0061c6    program     extern C:\MCC18\v3_39\src\traditional\math\cast16FP.asm
+                jI2F16Beg   0x0061d6    program     static C:\MCC18\v3_39\src\traditional\math\cast16FP.asm
+                    FPD32   0x0061ec    program     extern C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                 jANotInf   0x00620a    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+              jSignedZero   0x006214    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                jANotZero   0x00621e    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                    jLoop   0x006246    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                jNoAdjust   0x00626a    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                    jNext   0x00626c    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                    FPM32   0x006292    program     extern C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+                 jANotInf   0x0062b0    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+              jBothFinite   0x0062be    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+                jHaveZero   0x0062c6    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+             jBothNotZero   0x0062ca    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+                    FPS32   0x00636c    program     extern C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                    FPA32   0x00636e    program     extern C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                jBANotInf   0x00638c    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 jANotInf   0x006396    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 jBNotInf   0x0063a4    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+            jDifOrPosSign   0x0063b8    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+             jNotBothZero   0x0063bc    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 jAltBexp   0x0063e8    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+              jAandWsetup   0x0063fa    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 jANotNeg   0x00642a    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 jWNotNeg   0x00643e    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+               jShiftLoop   0x006444    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+               jShiftDone   0x006452    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                jSignDone   0x006482    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+               jFinalSign   0x006492    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                  INT3216   0x00649a    program     extern C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                     jMax   0x0064aa    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                  jMaxPos   0x0064ae    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                  jMaxNeg   0x0064b8    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                    jZero   0x0064c0    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                  jNotInf   0x0064c6    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                    jLoop   0x0064d6    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                jLoopExit   0x0064e6    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                    jExit   0x0064f6    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                  TAGTB32   0x0064f8    program     extern C:\MCC18\v3_39\src\traditional\math\gtFP.asm
+              __FpCompare   0x00650a    program     extern C:\MCC18\v3_39\src\traditional\math\compFP.asm
+             jBothNotZero   0x006528    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                 jSignsEQ   0x00652c    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                      jEQ   0x006544    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                      jNE   0x006548    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                    jExch   0x006550    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                  jNoExch   0x006570    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                   jFinal   0x00657a    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                  jAisNeg   0x006586    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                   jShift   0x00658c    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                   jExpEQ   0x006596    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                  jRotate   0x0065a2    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+            __FpReturnNaN   0x0065b4    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+                 __FpExit   0x0065c0    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x0065c2    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x0065c6    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x0065cc    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x0065d0    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+               jZero1and2   0x0065d4    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x0065da    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x0065de    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x0065e6    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+                 __FpPack   0x0065ec    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+                  jPkLoop   0x0065fa    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+             jPkShiftDone   0x006616    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+               jPkRoundIt   0x00662c    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+              __FpReturnW   0x006644    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+             jPkRoundDone   0x006644    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+              __FpUnPackA   0x006664    program     extern C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                  jUnpkA1   0x00666e    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x00667c    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x006686    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x006690    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x006694    program     extern C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x00669e    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x0066ac    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x0066b6    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+              __string_65   0x0066c0    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_64   0x0066c9    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_63   0x0066d2    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_62   0x0066db    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_61   0x0066e5    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_60   0x0066f6    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_59   0x006713    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_58   0x006730    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_57   0x006775    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_56   0x00678e    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_55   0x00679f    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_54   0x0067b8    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_53   0x0067c9    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_52   0x0067da    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_51   0x0067eb    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_50   0x0067fc    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_49   0x00680d    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_48   0x00681e    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_47   0x006833    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_46   0x006848    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_45   0x006855    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_44   0x00686a    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_43   0x006877    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_42   0x006894    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_41   0x0068c5    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_40   0x0068f6    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_39   0x006923    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_38   0x006950    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_37   0x006969    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_36   0x00697e    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_35   0x006993    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_34   0x0069a0    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_33   0x0069ad    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_32   0x0069ba    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_31   0x0069c7    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_30   0x0069d4    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_29   0x0069e1    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_28   0x0069ee    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_27   0x0069fb    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_26   0x006a08    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_25   0x006a15    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_24   0x006a22    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_23   0x006a2f    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_22   0x006a3c    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_21   0x006a49    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_20   0x006a56    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_19   0x006a63    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_18   0x006a70    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_17   0x006a7d    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_16   0x006a9c    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_15   0x006aa8    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_14   0x006ab1    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_13   0x006aba    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_12   0x006ac5    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_11   0x006ad0    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+              __string_10   0x006ad9    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_9   0x006ae2    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_8   0x006aeb    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_7   0x006af4    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_6   0x006afd    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_5   0x006b06    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_4   0x006b0f    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_3   0x006b18    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_2   0x006b21    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_1   0x006b2a    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+               __string_0   0x006b49    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+            FilterRead_Ad   0x006b56    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\adc.c
+          ___for_lbl00008   0x006b84    program     static                          
+        ___while_lbl00003   0x006b8c    program     static                          
+        ___while_lbl00004   0x006b90    program     static                          
+         ___else_lbl00007   0x006c1c    program     static                          
+           ___if_lbl00006   0x006c56    program     static                          
+           ___if_lbl00005   0x006c56    program     static                          
+          ___for_lbl00001   0x006c56    program     static                          
+          ___for_lbl00002   0x006c5a    program     static                          
+       ___return_lbl00000   0x006ca0    program     static                          
+           commit_convert   0x006cb4    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\adc.c
+                       ad   0x006f70    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\adc.c
+           Init_interrupt   0x006fa0    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+              Timer0_Init   0x007012    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+              Timer1_Init   0x007024    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+              Timer2_Init   0x007044    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+              Timer3_Init   0x007054    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+                  InitSSP   0x007056    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+                   InitIO   0x007074    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+       ___return_lbl00006   0x0070e6    program     static                          
+                InitUSART   0x0070e8    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+                 ADC_Init   0x007122    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+                  initMCU   0x007146    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\init.c
+            memcpypgm2ram   0x00715a    program     extern C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
+                    jLoop   0x007180    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
+              _3jContinue   0x00718c    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
+                   _4jEnd   0x007196    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
+                     jEnd   0x00719e    program     static C:\MCC18\v3_39\src\traditional\stdclib\mcpyp2r.asm
+                   memset   0x0071a0    program     extern C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+                    jLoop   0x0071b4    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+              _2jContinue   0x0071c0    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+                   _3jEnd   0x0071ca    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+                     jEnd   0x0071d2    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+            strcatpgm2ram   0x0071d4    program     extern C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
+                jNullLoop   0x0071fa    program     static C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
+                    jLoop   0x007200    program     static C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
+                     jEnd   0x00720a    program     static C:\MCC18\v3_39\src\traditional\stdclib\scatp2r.asm
+                   strchr   0x00720c    program     extern C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
+                    jLoop   0x007218    program     static C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
+                   jMatch   0x00722a    program     static C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
+                     jEnd   0x007232    program     static C:\MCC18\v3_39\src\traditional\stdclib\strchr.asm
+     InterruptServiceHigh   0x007234    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+      InterruptServiceLow   0x00727c    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+                     main   0x0072e8    program     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+                _do_cinit   0x0072f4    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                     test   0x00730e    program     static                          
+                copy_loop   0x007366    program     static                          
+            copy_one_byte   0x00736c    program     static                          
+             done_copying   0x00737a    program     static                          
+                     done   0x007390    program     static                          
+       ___return_lbl00002   0x007390    program     static                          
+               putrsUSART   0x007392    program     extern C:\MCC18\v3_39\src\pmc_common\USART\uputrs.c
+                putsUSART   0x0073f6    program     extern C:\MCC18\v3_39\src\pmc_common\USART\uputs.c
+               OpenTimer1   0x007442    program     extern C:\MCC18\v3_39\src\pmc_common\Timers\t1open.c
+              WriteTimer1   0x007484    program     extern C:\MCC18\v3_39\src\pmc_common\Timers\t1write.c
+             Delay10KTCYx   0x0074bc    program     extern C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x0074c6    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+                   D10K_1   0x0074c8    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_0010   0x0074cc    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x0074d4    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x0074d8    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+               WriteUSART   0x0074ea    program     extern C:\MCC18\v3_39\src\pmc_common\USART\uwrite.c
+            __zero_memory   0x007518    program     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                   loop_h   0x007526    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+               zero_block   0x007526    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                compare_l   0x00752e    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                   loop_l   0x007530    program     static C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                 _startup   0x007538    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                     loop   0x007548    program     static                          
+       ___return_lbl00001   0x007552    program     static                          
+                 FXD0808U   0x007554    program     extern C:\MCC18\v3_39\src\traditional\math\fxd0808u.c
+                     loop   0x00755c    program     static                          
+                  endloop   0x00756a    program     static                          
+       ___return_lbl00000   0x00756e    program     static                          
+               __config_0   0x300001    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_1   0x300002    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_2   0x300003    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_3   0x300005    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_4   0x300006    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_5   0x300008    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_6   0x300009    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_7   0x30000a    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_8   0x30000b    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+               __config_9   0x30000c    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
+              __config_10   0x30000d    program     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\main.c
                  __AARGB7   0x000000       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                   __REMB3   0x000000       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                  __AARGB6   0x000001       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                   __REMB2   0x000001       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                  __AARGB5   0x000002       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                   __REMB1   0x000002       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
-                  __REMB0   0x000003       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                  __AARGB4   0x000003       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                  __REMB0   0x000003       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                  __AARGB3   0x000004       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                  __AARGB2   0x000005       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                  __AARGB1   0x000006       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
@@ -1648,102 +1866,131 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
                      SIGN   0x00000e       data     extern C:\MCC18\v3_39\src\traditional\math\cmath18.asm
             __FPFLAGSbits   0x00000f       data     extern C:\MCC18\v3_39\src\traditional\math\cmath18.asm
                 __FPFLAGS   0x00000f       data     extern C:\MCC18\v3_39\src\traditional\math\cmath18.asm
-                  __tmp_0   0x000010       data     static L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-            DelayCounter2   0x000016       data     extern C:\MCC18\v3_39\src\traditional\delays\delayd2.asm
-            DelayCounter1   0x000017       data     extern C:\MCC18\v3_39\src\traditional\delays\delayd1.asm
-               gsmreCount   0x000100       data     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\globleVar.c
-                   gsmBuf   0x000101       data     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\globleVar.c
-              gsmreStatus   0x0001c9       data     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\globleVar.c
-                     prom   0x0001ca       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                curr_byte   0x0001cd       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
-               curr_entry   0x0001cf       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                 data_ptr   0x0001d1       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                SCAOffset   0x0001d4       data     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-                 OAOffset   0x0001d5       data     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-                 UDOffset   0x0001d6       data     extern L:\0-company\power\5-program\IDP-E-24V\00-new\S46K20-20131009\gsm.c
-             USART_Status   0x0001d7       data     extern C:\MCC18\v3_39\src\pmc_common\USART\udefs.c
+                 __TEMPB3   0x000010       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000011       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000012       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                   __TEMP   0x000013       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000013       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                  __tmp_0   0x000014       data     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\adc.c
+                  __tmp_0   0x000014       data     static E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+            DelayCounter2   0x000024       data     extern C:\MCC18\v3_39\src\traditional\delays\delayd2.asm
+            DelayCounter1   0x000025       data     extern C:\MCC18\v3_39\src\traditional\delays\delayd1.asm
+              S_To_M_buf0   0x000060       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+              S_To_M_buf1   0x0000ac       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                  sysFlag   0x0000f8       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                SCAOffset   0x0000f9       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                 OAOffset   0x0000fa       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                 UDOffset   0x0000fb       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\gsm.c
+                 SspQueue   0x000100       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                  TimeOut   0x0001c8       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                 Time0con   0x0001c9       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                 acStatus   0x0001cb       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                netStatus   0x0001cd       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+            troubleStatus   0x0001cf       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+             chargeStatus   0x0001d1       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+              lightStatus   0x0001d3       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+               modeStatus   0x0001d5       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                   buf_ad   0x0001d7       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\adc.c
+               gsmreCount   0x000e00       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+           ReadMessagecon   0x000e01       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                   gsmBuf   0x000e02       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+              gsmreStatus   0x000eca       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                  gsmFlag   0x000ecb       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                 gsmFlag1   0x000ecc       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                     csqH   0x000ecd       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                     csqL   0x000ece       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                      Prt   0x000ecf       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+              gsmPhoneNum   0x000ed1       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                    smCmd   0x000edd       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                 phone1SM   0x000ede       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                 phone2SM   0x000ee4       data     extern E:\Dropbox\TYSD\intelligent source\slave_source_code\intelligent_source_slave\globleVar.c
+                     prom   0x000eea       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                curr_byte   0x000eed       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+               curr_entry   0x000eef       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                 data_ptr   0x000ef1       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+             USART_Status   0x000ef4       data     extern C:\MCC18\v3_39\src\pmc_common\USART\udefs.c
                    SSPMSK   0x000f77       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                SSPMSKbits   0x000f77       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                   SLRCON   0x000f78       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                SLRCONbits   0x000f78       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                   SLRCON   0x000f78       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   CM2CON1   0x000f79       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
               CM2CON1bits   0x000f79       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                  CM2CON0   0x000f7a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
               CM2CON0bits   0x000f7a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-              CM1CON0bits   0x000f7b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                  CM2CON0   0x000f7a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   CM1CON0   0x000f7b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                     WPUB   0x000f7c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+              CM1CON0bits   0x000f7b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  WPUBbits   0x000f7c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                 IOCBbits   0x000f7d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                     WPUB   0x000f7c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      IOCB   0x000f7d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                ANSELbits   0x000f7e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                 IOCBbits   0x000f7d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     ANSEL   0x000f7e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                ANSELbits   0x000f7e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                ANSELHbits   0x000f7f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    ANSELH   0x000f7f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                PORTAbits   0x000f80       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     PORTA   0x000f80       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                PORTAbits   0x000f80       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                 PORTBbits   0x000f81       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     PORTB   0x000f81       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                    PORTC   0x000f82       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                 PORTCbits   0x000f82       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                    PORTD   0x000f83       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                    PORTC   0x000f82       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                 PORTDbits   0x000f83       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                    PORTD   0x000f83       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     PORTE   0x000f84       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                 PORTEbits   0x000f84       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  LATAbits   0x000f89       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      LATA   0x000f89       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  LATBbits   0x000f8a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      LATB   0x000f8a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                 LATCbits   0x000f8b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      LATC   0x000f8b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                 LATCbits   0x000f8b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  LATDbits   0x000f8c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      LATD   0x000f8c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  LATEbits   0x000f8d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      LATE   0x000f8d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                     DDRA   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                TRISAbits   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                    TRISA   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  DDRAbits   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                     DDRB   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                 DDRBbits   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                     DDRA   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                    TRISA   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                TRISAbits   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                 TRISBbits   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     TRISB   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                     DDRB   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                 DDRBbits   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                 TRISCbits   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     TRISC   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      DDRC   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  DDRCbits   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                TRISDbits   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     TRISD   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                TRISDbits   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      DDRD   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  DDRDbits   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                     DDRE   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                 DDREbits   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     TRISE   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                 TRISEbits   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                     DDRE   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                 DDREbits   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   OSCTUNE   0x000f9b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
               OSCTUNEbits   0x000f9b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  PIE1bits   0x000f9d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      PIE1   0x000f9d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  PIR1bits   0x000f9e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      PIR1   0x000f9e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                 IPR1bits   0x000f9f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      IPR1   0x000f9f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                 IPR1bits   0x000f9f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  PIE2bits   0x000fa0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      PIE2   0x000fa0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  PIR2bits   0x000fa1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      PIR2   0x000fa1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                 IPR2bits   0x000fa2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      IPR2   0x000fa2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-               EECON1bits   0x000fa6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                 IPR2bits   0x000fa2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    EECON1   0x000fa6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+               EECON1bits   0x000fa6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    EECON2   0x000fa7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    EEDATA   0x000fa8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                    EEADR   0x000fa9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                 EEADRbits   0x000fa9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                    EEADR   0x000fa9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                EEADRHbits   0x000faa       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    EEADRH   0x000faa       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                RCSTAbits   0x000fab       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     RCSTA   0x000fab       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                RCSTAbits   0x000fab       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     TXSTA   0x000fac       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                 TXSTAbits   0x000fac       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     TXREG   0x000fad       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
@@ -1756,36 +2003,36 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
                     TMR3H   0x000fb3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
               CVRCON2bits   0x000fb4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   CVRCON2   0x000fb4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                   CVRCON   0x000fb5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                CVRCONbits   0x000fb5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                  ECCP1AS   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                   CVRCON   0x000fb5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
               ECCP1ASbits   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-              PWM1CONbits   0x000fb7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                  ECCP1AS   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   PWM1CON   0x000fb7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-              BAUDCONbits   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                  BAUDCTL   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-              BAUDCTLbits   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+              PWM1CONbits   0x000fb7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   BAUDCON   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+              BAUDCTLbits   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                  BAUDCTL   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+              BAUDCONbits   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
               PSTRCONbits   0x000fb9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   PSTRCON   0x000fb9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-              CCP2CONbits   0x000fba       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   CCP2CON   0x000fba       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                   CCPR2L   0x000fbb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+              CCP2CONbits   0x000fba       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     CCPR2   0x000fbb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                   CCPR2L   0x000fbb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    CCPR2H   0x000fbc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                  CCP1CON   0x000fbd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
               CCP1CONbits   0x000fbd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                   CCPR1L   0x000fbe       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                  CCP1CON   0x000fbd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     CCPR1   0x000fbe       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                   CCPR1L   0x000fbe       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    CCPR1H   0x000fbf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-               ADCON2bits   0x000fc0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    ADCON2   0x000fc0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-               ADCON1bits   0x000fc1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+               ADCON2bits   0x000fc0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    ADCON1   0x000fc1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-               ADCON0bits   0x000fc2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+               ADCON1bits   0x000fc1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    ADCON0   0x000fc2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                   ADRESL   0x000fc3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+               ADCON0bits   0x000fc2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     ADRES   0x000fc3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                   ADRESL   0x000fc3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    ADRESH   0x000fc4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   SSPCON2   0x000fc5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
               SSPCON2bits   0x000fc5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
@@ -1799,28 +2046,28 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
                     T2CON   0x000fca       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                       PR2   0x000fcb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      TMR2   0x000fcc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                    T1CON   0x000fcd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                 T1CONbits   0x000fcd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                    T1CON   0x000fcd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     TMR1L   0x000fce       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     TMR1H   0x000fcf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      RCON   0x000fd0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  RCONbits   0x000fd0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                WDTCONbits   0x000fd1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    WDTCON   0x000fd1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-               LVDCONbits   0x000fd2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   HLVDCON   0x000fd2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
               HLVDCONbits   0x000fd2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+               LVDCONbits   0x000fd2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    LVDCON   0x000fd2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                OSCCONbits   0x000fd3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    OSCCON   0x000fd3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                T0CONbits   0x000fd5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     T0CON   0x000fd5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                T0CONbits   0x000fd5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     TMR0L   0x000fd6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     TMR0H   0x000fd7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-               STATUSbits   0x000fd8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    STATUS   0x000fd8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                    FSR2L   0x000fd9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+               STATUSbits   0x000fd8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      FSR2   0x000fd9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                    FSR2L   0x000fd9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     FSR2H   0x000fda       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    PLUSW2   0x000fdb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   PREINC2   0x000fdc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
@@ -1828,16 +2075,16 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
                  POSTINC2   0x000fde       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     INDF2   0x000fdf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                       BSR   0x000fe0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                    FSR1L   0x000fe1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      FSR1   0x000fe1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                    FSR1L   0x000fe1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     FSR1H   0x000fe2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    PLUSW1   0x000fe3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   PREINC1   0x000fe4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  POSTDEC1   0x000fe5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  POSTINC1   0x000fe6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     INDF1   0x000fe7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                     WREG   0x000fe8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                         W   0x000fe8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                     WREG   0x000fe8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      FSR0   0x000fe9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     FSR0L   0x000fe9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     FSR0H   0x000fea       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
@@ -1846,22 +2093,22 @@ Linker Map File - Created Wed Oct 09 13:38:40 2013
                  POSTDEC0   0x000fed       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                  POSTINC0   0x000fee       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     INDF0   0x000fef       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                  INTCON3   0x000ff0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
               INTCON3bits   0x000ff0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                  INTCON3   0x000ff0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
               INTCON2bits   0x000ff1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   INTCON2   0x000ff1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                   INTCON   0x000ff2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                INTCONbits   0x000ff2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                   INTCON   0x000ff2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                      PROD   0x000ff3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     PRODL   0x000ff3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                     PRODH   0x000ff4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    TABLAT   0x000ff5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                   TBLPTR   0x000ff6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   TBLPTRL   0x000ff6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                   TBLPTR   0x000ff6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   TBLPTRH   0x000ff7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                   TBLPTRU   0x000ff8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
-                       PC   0x000ff9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                       PCL   0x000ff9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
+                       PC   0x000ff9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    PCLATH   0x000ffa       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    PCLATU   0x000ffb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
                    STKPTR   0x000ffc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F46K20.asm
